@@ -1,0 +1,17 @@
+{
+  "name": "mini_project",
+  "version": "1.0.0",
+  "description": "A mini project",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -a localhost -p 8080"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "author": "",
+  "license": "MIT"
+}

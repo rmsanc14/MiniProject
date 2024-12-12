@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Habit Tracker</title>
+  <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body class="bg-light">
+  <div class="container mt-5">
+    <h1 class="text-center text-primary mb-4">Habit Tracker</h1>
+    
+    <!-- Add Habit Form -->
+    <div class="input-group mb-3">
+      <input id="habit-input" type="text" class="form-control" placeholder="Enter a new habit">
+      <button id="add-habit" class="btn btn-primary">Add Habit</button>
+    </div>
+    
+    <!-- Habit Table -->
+    <div class="table-responsive">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Habit</th>
+            <th>Mon</th>
+            <th>Tue</th>
+            <th>Wed</th>
+            <th>Thu</th>
+            <th>Fri</th>
+            <th>Sat</th>
+            <th>Sun</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="habit-table-body">
+          <!-- Rows will be dynamically added here -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="/assets/index.js"></script>
+</body>
+</html>
