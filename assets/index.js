@@ -81,6 +81,7 @@ function deleteHabit(index) {
     saveAndRender();
 }
 const value = localStorage.getItem("habits"); 
+const parsedValue = JSON.parse(value);
 
 
 // Event Listeners
